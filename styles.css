@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Expletus Sans', cursive;
+    font-family: 'Varela Round', sans-serif;   
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1607024301817-3bbc081205cd?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY4NzY1NjMwNw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+
+}
+
+.caixa-maior {
+    background: #faed3b;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+
+}
+
+.imput-busca {
+    border: nome;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c;
+    color: rgb(255, 187, 0);
+    width: calc(100% - 100%px);
+
+}
+
+.botao-busca {
+
+    border: none;
+    outline: none;
+    padding: 10px;
+    border: 50px;
+    background-color: rgb(241, 86, 216);
+    cursor: pointer;
+    float: right;
+}
+
+.img-buscar {
+    width: 30px;
+    margin: 30px;
+    float: right;
+
+}
+
+.Slogan {
+    margin-top: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Unidade {
+    color: rgb(226, 185, 0);
+    
+}
